@@ -1,0 +1,6 @@
+@EndUserText.label: 'Travel Service Definition'
+@ObjectModel.leadingEntity.name: 'Z_C_TRAVEL_AC_NH'
+define service Z_SD_TRAVEL_AC_NH
+  provider contracts odata_v4_ui {
+  expose Z_C_TRAVEL_AC_NH as Travel;
+}
